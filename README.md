@@ -1,2 +1,2 @@
 # mealbookingapp
-Book meal app
+Book meal application
