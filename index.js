@@ -16,7 +16,7 @@
           fadeOutFrom = 10;
           return false;
         }
-
+ 
         const loopTimer = setTimeout('fadeout(\''+element+'\')', 500);
       }
 
