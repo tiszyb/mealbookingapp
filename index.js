@@ -31,7 +31,7 @@ fs.readFile('./config.json', 'utf8', function(err, data) {
 
   const app  = express();
   const config = JSON.parse(data);
-
+  
   app.use(express.static(config.webserver.folder))
 
   const httpserver = http.createServer(app);
